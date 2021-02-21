@@ -1,3 +1,4 @@
+"use strict";
 var peopleArray = ["John", "Jake", "Kevin", "Gavin", "Hauffman"];
 peopleArray.push("jatin");
 peopleArray.push("harish");
@@ -12,8 +13,8 @@ for (var i = 0; i < numbers.length; i++) {
 var nums = [10, 11, 12, 13, 14, 15];
 var total = 0;
 for (var _a = 0, nums_1 = nums; _a < nums_1.length; _a++) {
-    var num = nums_1[_a];
-    total = total + num;
+    var num_1 = nums_1[_a];
+    total = total + num_1;
 }
 console.log("total is : " + total);
 var average = total / nums.length;

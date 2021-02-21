@@ -1,3 +1,4 @@
+"use strict";
 var isFound = false;
 var num = 887;
 var firstName = "Saurabh";

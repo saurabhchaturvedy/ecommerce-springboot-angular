@@ -1,8 +1,12 @@
 class Customer2
 {
 
-    firstName: string;
-    lastName: string;
+    
+
+    constructor(private firstName: string,private lastName: string )
+    {
+
+    }
 
 
     public getFirstName(): string {
@@ -23,7 +27,7 @@ class Customer2
 }
 
 
-let customer2: Customer2 = new Customer2();
+let customer2: Customer2 = new Customer2("saurabh","chat");
 
 customer2.setFirstName("saurabh");
 
