@@ -1,5 +1,8 @@
 let peopleArray: string[] = ["John","Jake","Kevin","Gavin","Hauffman"];
 
+peopleArray.push("jatin");
+peopleArray.push("harish");
+
 for(let people of peopleArray)
 {
     console.log("Welcome : "+people);

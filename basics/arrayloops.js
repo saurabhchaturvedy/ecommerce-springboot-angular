@@ -1,4 +1,6 @@
 var peopleArray = ["John", "Jake", "Kevin", "Gavin", "Hauffman"];
+peopleArray.push("jatin");
+peopleArray.push("harish");
 for (var _i = 0, peopleArray_1 = peopleArray; _i < peopleArray_1.length; _i++) {
     var people = peopleArray_1[_i];
     console.log("Welcome : " + people);
